@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.question {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.timer {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.results-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.admin-dashboard .card {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .quiz-container, .results-container {
+        padding: 0 15px;
+    }
+}
