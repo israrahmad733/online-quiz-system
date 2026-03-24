@@ -1,0 +1,1 @@
+A web-based Online Quiz Management System that allows teachers to create and manage quizzes while students can attempt quizzes online and view instant results. Built using HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL with user authentication and database integration.
